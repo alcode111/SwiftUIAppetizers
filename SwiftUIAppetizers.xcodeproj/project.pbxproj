@@ -15,6 +15,7 @@
 		ECD28A4D2BB9817600837145 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD28A4C2BB9817600837145 /* AccountView.swift */; };
 		ECD28A4F2BB9819C00837145 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD28A4E2BB9819C00837145 /* OrderView.swift */; };
 		ECD28A512BB98DA100837145 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD28A502BB98DA100837145 /* Appetizer.swift */; };
+		ECD28A532BB99D7100837145 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD28A522BB99D7100837145 /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		ECD28A4C2BB9817600837145 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		ECD28A4E2BB9819C00837145 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		ECD28A502BB98DA100837145 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		ECD28A522BB99D7100837145 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				ECD28A3A2BB980A300837145 /* SwiftUIAppetizersApp.swift */,
 				ECD28A482BB9812300837145 /* AppetizerTabView.swift */,
 				ECD28A4A2BB9816600837145 /* AppetizerListView.swift */,
+				ECD28A522BB99D7100837145 /* AppetizerListCell.swift */,
 				ECD28A4C2BB9817600837145 /* AccountView.swift */,
 				ECD28A4E2BB9819C00837145 /* OrderView.swift */,
 				ECD28A502BB98DA100837145 /* Appetizer.swift */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECD28A512BB98DA100837145 /* Appetizer.swift in Sources */,
+				ECD28A532BB99D7100837145 /* AppetizerListCell.swift in Sources */,
 				ECD28A4D2BB9817600837145 /* AccountView.swift in Sources */,
 				ECD28A492BB9812300837145 /* AppetizerTabView.swift in Sources */,
 				ECD28A3B2BB980A300837145 /* SwiftUIAppetizersApp.swift in Sources */,
