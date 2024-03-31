@@ -18,3 +18,18 @@ struct Appetizer: Decodable {
     let carb: Int
 }
 
+struct AppetizerResponse {
+    let request: [Appetizer]
+}
+
+struct MockData {
+    static let sampleAppetizer = Appetizer(id: 001,
+                                          name: "Test Appetizer",
+                                          description: "This is the description of my appetizer. It's yummy.",
+                                          price: 9.99,
+                                          imageURL: "",
+                                          calories: 99,
+                                          protein: 99,
+                                          carb: 99)
+}
+
