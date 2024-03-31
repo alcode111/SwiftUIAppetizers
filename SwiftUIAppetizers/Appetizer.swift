@@ -31,5 +31,7 @@ struct MockData {
                                           calories: 99,
                                           protein: 99,
                                           carb: 99)
+    
+    static let appetizers = [sampleAppetizer, sampleAppetizer, sampleAppetizer, sampleAppetizer]
 }
 
