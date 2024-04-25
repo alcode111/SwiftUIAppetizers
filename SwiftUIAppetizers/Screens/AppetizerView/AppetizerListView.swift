@@ -22,10 +22,12 @@ struct AppetizerListView: View {
                         }
                 }
                 .navigationTitle("🍟 Appetizers")
+                .disabled(isShowingDetail)
             }
             .onAppear {
                 viewModel.getAppetizers()
             }
+            .blur(radius: isShowingDetail ? 20 : 0)
             
             if isShowingDetail {
                 AppetizerDetailView(appetizer: MockData.sampleAppetizer, isShowingDetail: $isShowingDetail)
