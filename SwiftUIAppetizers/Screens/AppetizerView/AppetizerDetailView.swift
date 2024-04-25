@@ -14,8 +14,7 @@ struct AppetizerDetailView: View {
     
     var body: some View {
         VStack {
-            Image(.asianFlankSteak)
-                .resizable()
+            AppetizerRemonteImage(urlString: appetizer.imageURL)
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 300, height: 225)
             
@@ -69,13 +68,7 @@ struct AppetizerDetailView: View {
                 Button {
                     print("tapped")
                 } label: {
-                    Text("$\(appetizer.price, specifier: "%.2f") - Add to Order")
-                        .font(.title3)
-                        .fontWeight(.semibold)
-                        .frame(width: 260, height: 50)
-                        .foregroundStyle(.white)
-                        .background(.accent)
-                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                    APButton(title: "$\(appetizer.price, specifier: "%.2f") - Add to Order")
                 }
                 .padding(.bottom, 30)
             }
@@ -87,16 +80,7 @@ struct AppetizerDetailView: View {
         .overlay(Button {
             isShowingDetail = false
         } label: {
-            ZStack {
-                Circle()
-                    .frame(width: 30)
-                    .foregroundStyle(.white.opacity(0.6))
-                
-                Image(systemName: "xmark")
-                    .imageScale(.small)
-                    .frame(width: 44, height: 44)
-                    .foregroundStyle(.black)
-            }
+            XDismissButton()
         }, alignment: .topTrailing)
     }
 }
