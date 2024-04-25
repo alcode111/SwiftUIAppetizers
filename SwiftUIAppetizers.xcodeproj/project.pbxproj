@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC0E6FE02BDA6D6A008B38A1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0E6FDF2BDA6D6A008B38A1 /* LoadingView.swift */; };
 		EC7A38362BBAA98200FB296E /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7A38352BBAA98200FB296E /* APError.swift */; };
 		ECD28A3B2BB980A300837145 /* SwiftUIAppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD28A3A2BB980A300837145 /* SwiftUIAppetizersApp.swift */; };
 		ECD28A3F2BB980A500837145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD28A3E2BB980A500837145 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC0E6FDF2BDA6D6A008B38A1 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		EC7A38352BBAA98200FB296E /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		ECD28A372BB980A300837145 /* SwiftUIAppetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAppetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD28A3A2BB980A300837145 /* SwiftUIAppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAppetizersApp.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				ECD28A502BB98DA100837145 /* Appetizer.swift */,
 				ECFBACCA2BDA360900466D09 /* AppetizerListViewModel.swift */,
 				ECFBACCC2BDA3AB700466D09 /* Alert.swift */,
+				EC0E6FDF2BDA6D6A008B38A1 /* LoadingView.swift */,
 				ECD28A3E2BB980A500837145 /* Assets.xcassets */,
 				ECD28A402BB980A500837145 /* Preview Content */,
 			);
@@ -169,6 +172,7 @@
 				ECD28A532BB99D7100837145 /* AppetizerListCell.swift in Sources */,
 				ECFBACCB2BDA360900466D09 /* AppetizerListViewModel.swift in Sources */,
 				ECD28A4D2BB9817600837145 /* AccountView.swift in Sources */,
+				EC0E6FE02BDA6D6A008B38A1 /* LoadingView.swift in Sources */,
 				ECD28A492BB9812300837145 /* AppetizerTabView.swift in Sources */,
 				ECD28A552BB99F9000837145 /* NetworkManager.swift in Sources */,
 				ECD28A3B2BB980A300837145 /* SwiftUIAppetizersApp.swift in Sources */,
