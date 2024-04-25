@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIAppetizersApp: App {
     var body: some Scene {
         WindowGroup {
-            AppetizerListView()
+            AppetizerTabView()
         }
     }
 }
