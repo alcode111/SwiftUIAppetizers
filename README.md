@@ -1,8 +1,8 @@
 # Appetizers
 
-<img src="project-screenshots.jpg" alt="App Screenshot" width="800">
-<img src="project-code-screenshot-1.jpg" alt="App Screenshot" width="800">
-<img src="project-code-screenshot-2.jpg" alt="App Screenshot" width="800">
+<img src="project-screenshots.png" alt="App Screenshot" width="800">
+<img src="project-code-screenshot-1.png" alt="App Screenshot" width="800">
+<img src="project-code-screenshot-2.png" alt="App Screenshot" width="800">
 
 ## Description
 
