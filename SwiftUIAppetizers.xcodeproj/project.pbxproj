@@ -10,6 +10,7 @@
 		EC0E6FE02BDA6D6A008B38A1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0E6FDF2BDA6D6A008B38A1 /* LoadingView.swift */; };
 		EC0E6FE22BDA7AFA008B38A1 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0E6FE12BDA7AFA008B38A1 /* RemoteImage.swift */; };
 		EC68DBAC2BDBC758003309E7 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC68DBAB2BDBC758003309E7 /* AccountViewModel.swift */; };
+		EC68DBAF2BDBCDC3003309E7 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC68DBAE2BDBCDC3003309E7 /* String+Ext.swift */; };
 		EC7A38362BBAA98200FB296E /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7A38352BBAA98200FB296E /* APError.swift */; };
 		ECBE8D672BDABFA3003E50B0 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE8D662BDABFA3003E50B0 /* AppetizerDetailView.swift */; };
 		ECBE8D6B2BDAE57F003E50B0 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE8D6A2BDAE57F003E50B0 /* APButton.swift */; };
@@ -32,6 +33,7 @@
 		EC0E6FDF2BDA6D6A008B38A1 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		EC0E6FE12BDA7AFA008B38A1 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		EC68DBAB2BDBC758003309E7 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		EC68DBAE2BDBCDC3003309E7 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		EC7A38352BBAA98200FB296E /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		ECBE8D662BDABFA3003E50B0 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		ECBE8D6A2BDAE57F003E50B0 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				EC0E6FE92BDA8C28008B38A1 /* Alerts */,
+				EC68DBAD2BDBCD96003309E7 /* Extensions */,
 				EC0E6FE82BDA8BFF008B38A1 /* Managers */,
 			);
 			path = Utilities;
@@ -167,6 +170,14 @@
 				EC0E6FE12BDA7AFA008B38A1 /* RemoteImage.swift */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		EC68DBAD2BDBCD96003309E7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EC68DBAE2BDBCDC3003309E7 /* String+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		ECBE8D682BDAE555003E50B0 /* Buttons */ = {
@@ -286,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC68DBAF2BDBCDC3003309E7 /* String+Ext.swift in Sources */,
 				ECD28A512BB98DA100837145 /* Appetizer.swift in Sources */,
 				EC7A38362BBAA98200FB296E /* APError.swift in Sources */,
 				ECD28A532BB99D7100837145 /* AppetizerListCell.swift in Sources */,
