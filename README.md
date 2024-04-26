@@ -24,7 +24,7 @@ Appetizers is a SwiftUI application that allows users to view a list of appetize
 
 ## Technologies Used
 
-- **API Integration**: Fetch appetizer data from [Sean Allen's custom API](https://seanallen-course-backend.herokuapp.com/swiftui-fundamentals/).
+- **API Integration**: Fetch appetizer data from [Sean Allen's custom API](https://seanallen-course-backend.herokuapp.com/swiftui-fundamentals/appetizers).
 - **SwiftUI**: Utilize SwiftUI for building a modern and responsive user interface.
 - **Xcode**: Develop the app using Xcode, Apple's integrated development environment.
 - **Swift**: Leverage Swift programming language for iOS app development.
