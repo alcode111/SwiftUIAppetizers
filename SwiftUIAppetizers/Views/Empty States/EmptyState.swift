@@ -9,7 +9,7 @@ import SwiftUI
 
 struct EmptyState: View {
     
-    let imageName: String
+    let imageName: Image
     let message: String
     
     var body: some View {
@@ -18,7 +18,7 @@ struct EmptyState: View {
                 .ignoresSafeArea()
             
             VStack {
-                Image(imageName)
+                imageName
                     .resizable()
                     .scaledToFit()
                     .frame(height: 150)
@@ -30,10 +30,11 @@ struct EmptyState: View {
                     .foregroundStyle(.secondary)
                     .padding()
             }
+            .offset(y: -50)
         }
     }
 }
 
 #Preview {
-    EmptyState(imageName: "empty-order", message: "This is our test message.\n I'm making it a little long for testing.")
+    EmptyState(imageName: Image(.emptyOrder), message: "This is our test message.\n I'm making it a little long for testing.")
 }

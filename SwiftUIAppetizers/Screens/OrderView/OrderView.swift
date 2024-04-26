@@ -12,26 +12,31 @@ struct OrderView: View {
     @State private var orderItems = MockData.orderItems
     
     var body: some View {
-        NavigationStack {
-            VStack {
-                List {
-                    ForEach(orderItems) { appetizer in
-                        AppetizerListCell(appetizer: appetizer)
+        ZStack {
+            NavigationStack {
+                VStack {
+                    if orderItems.isEmpty {
+                        EmptyState(imageName: Image(.emptyOrder), message: "You have no times in your order. Please add an appetizer!")
+                    } else {
+                        List {
+                            ForEach(orderItems) { appetizer in
+                                AppetizerListCell(appetizer: appetizer)
+                            }
+                            .onDelete(perform: deleteItems)
+                        }
+                        .listStyle(PlainListStyle())
+                        
+                        Button {
+                            print("order placed")
+                        } label: {
+                            APButton(title: "$99.99 - Place Order")
+                        }
+                        .padding(.bottom, 25)
                     }
-                    .onDelete(perform: deleteItems)
                 }
-                .listStyle(PlainListStyle())
-                
-                Button {
-                    print("order placed")
-                } label: {
-                    APButton(title: "$99.99 - Place Order")
-                }
-                .padding(.bottom, 25)
+                .navigationTitle("📑 Orders")
             }
-            .navigationTitle("📑 Orders")
         }
-        
     }
     
     func deleteItems(at offsets: IndexSet) {
