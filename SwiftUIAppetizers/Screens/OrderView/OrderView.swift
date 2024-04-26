@@ -16,13 +16,13 @@ struct OrderView: View {
             NavigationStack {
                 VStack {
                     if order.items.isEmpty {
-                        EmptyState(imageName: Image(.emptyOrder), message: "You have no times in your order. Please add an appetizer!")
+                        EmptyState(imageName: Image(.emptyOrder), message: "You have no items in your order. Please add an appetizer!")
                     } else {
                         List {
                             ForEach(order.items) { appetizer in
                                 AppetizerListCell(appetizer: appetizer)
                             }
-                            .onDelete(perform: deleteItems)
+                            .onDelete(perform: order.deleteItems)
                         }
                         .listStyle(PlainListStyle())
                         
@@ -37,10 +37,6 @@ struct OrderView: View {
                 .navigationTitle("📑 Orders")
             }
         }
-    }
-    
-    func deleteItems(at offsets: IndexSet) {
-        order.items.remove(atOffsets: offsets)
     }
 }
 
