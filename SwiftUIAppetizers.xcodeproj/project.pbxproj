@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		EC0E6FE02BDA6D6A008B38A1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0E6FDF2BDA6D6A008B38A1 /* LoadingView.swift */; };
 		EC0E6FE22BDA7AFA008B38A1 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0E6FE12BDA7AFA008B38A1 /* RemoteImage.swift */; };
-		EC68DBAC2BDBC758003309E7 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC68DBAB2BDBC758003309E7 /* AccountViewModel.swift */; };
 		EC68DBAF2BDBCDC3003309E7 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC68DBAE2BDBCDC3003309E7 /* String+Ext.swift */; };
+		EC68DBB12BDBDB9B003309E7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC68DBB02BDBDB9B003309E7 /* User.swift */; };
+		EC68DBB32BDBDF32003309E7 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC68DBB22BDBDF32003309E7 /* AccountViewModel.swift */; };
 		EC7A38362BBAA98200FB296E /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7A38352BBAA98200FB296E /* APError.swift */; };
 		ECBE8D672BDABFA3003E50B0 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE8D662BDABFA3003E50B0 /* AppetizerDetailView.swift */; };
 		ECBE8D6B2BDAE57F003E50B0 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE8D6A2BDAE57F003E50B0 /* APButton.swift */; };
@@ -32,8 +33,9 @@
 /* Begin PBXFileReference section */
 		EC0E6FDF2BDA6D6A008B38A1 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		EC0E6FE12BDA7AFA008B38A1 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
-		EC68DBAB2BDBC758003309E7 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		EC68DBAE2BDBCDC3003309E7 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		EC68DBB02BDBDB9B003309E7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EC68DBB22BDBDF32003309E7 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		EC7A38352BBAA98200FB296E /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		ECBE8D662BDABFA3003E50B0 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		ECBE8D6A2BDAE57F003E50B0 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
@@ -89,7 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				ECD28A4C2BB9817600837145 /* AccountView.swift */,
-				EC68DBAB2BDBC758003309E7 /* AccountViewModel.swift */,
+				EC68DBB22BDBDF32003309E7 /* AccountViewModel.swift */,
 			);
 			path = AccountView;
 			sourceTree = "<group>";
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				ECD28A502BB98DA100837145 /* Appetizer.swift */,
+				EC68DBB02BDBDB9B003309E7 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -307,14 +310,15 @@
 				EC0E6FE02BDA6D6A008B38A1 /* LoadingView.swift in Sources */,
 				EC0E6FE22BDA7AFA008B38A1 /* RemoteImage.swift in Sources */,
 				ECD28A492BB9812300837145 /* AppetizerTabView.swift in Sources */,
+				EC68DBB32BDBDF32003309E7 /* AccountViewModel.swift in Sources */,
 				ECBE8D672BDABFA3003E50B0 /* AppetizerDetailView.swift in Sources */,
 				ECD28A552BB99F9000837145 /* NetworkManager.swift in Sources */,
 				ECD28A3B2BB980A300837145 /* SwiftUIAppetizersApp.swift in Sources */,
 				ECFBACCD2BDA3AB700466D09 /* Alert.swift in Sources */,
 				ECD28A4B2BB9816600837145 /* AppetizerListView.swift in Sources */,
 				ECD28A4F2BB9819C00837145 /* OrderView.swift in Sources */,
-				EC68DBAC2BDBC758003309E7 /* AccountViewModel.swift in Sources */,
 				ECBE8D6D2BDAE6C6003E50B0 /* XDismissButton.swift in Sources */,
+				EC68DBB12BDBDB9B003309E7 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
