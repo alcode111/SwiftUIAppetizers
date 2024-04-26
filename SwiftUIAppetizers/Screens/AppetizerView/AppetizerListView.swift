@@ -11,7 +11,6 @@ struct AppetizerListView: View {
     
     @StateObject var viewModel = AppetizerListViewModel()
     
-    
     var body: some View {
         ZStack {
             NavigationStack {
@@ -47,5 +46,5 @@ struct AppetizerListView: View {
 }
 
 #Preview {
-    AppetizerListView()
+    AppetizerListView().environmentObject(Order())
 }

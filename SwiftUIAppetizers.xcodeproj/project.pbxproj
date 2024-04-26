@@ -27,6 +27,7 @@
 		ECD28A532BB99D7100837145 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD28A522BB99D7100837145 /* AppetizerListCell.swift */; };
 		ECD28A552BB99F9000837145 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD28A542BB99F9000837145 /* NetworkManager.swift */; };
 		ECEDF8242BDBFDA300391408 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEDF8232BDBFDA300391408 /* EmptyState.swift */; };
+		ECEDF8262BDC193600391408 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEDF8252BDC193600391408 /* Order.swift */; };
 		ECFBACCB2BDA360900466D09 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFBACCA2BDA360900466D09 /* AppetizerListViewModel.swift */; };
 		ECFBACCD2BDA3AB700466D09 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFBACCC2BDA3AB700466D09 /* Alert.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		ECD28A522BB99D7100837145 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		ECD28A542BB99F9000837145 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		ECEDF8232BDBFDA300391408 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		ECEDF8252BDC193600391408 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		ECFBACCA2BDA360900466D09 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 		ECFBACCC2BDA3AB700466D09 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				ECD28A502BB98DA100837145 /* Appetizer.swift */,
+				ECEDF8252BDC193600391408 /* Order.swift */,
 				EC68DBB02BDBDB9B003309E7 /* User.swift */,
 			);
 			path = Model;
@@ -317,6 +320,7 @@
 				ECD28A532BB99D7100837145 /* AppetizerListCell.swift in Sources */,
 				ECBE8D6B2BDAE57F003E50B0 /* APButton.swift in Sources */,
 				ECFBACCB2BDA360900466D09 /* AppetizerListViewModel.swift in Sources */,
+				ECEDF8262BDC193600391408 /* Order.swift in Sources */,
 				ECD28A4D2BB9817600837145 /* AccountView.swift in Sources */,
 				ECEDF8242BDBFDA300391408 /* EmptyState.swift in Sources */,
 				EC0E6FE02BDA6D6A008B38A1 /* LoadingView.swift in Sources */,
