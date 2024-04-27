@@ -41,8 +41,10 @@ struct AppetizerDetailView: View {
                     order.add(appetizer)
                     isShowingDetail = false
                 } label: {
-                    APButton(title: "$\(appetizer.price, specifier: "%.2f") - Add to Order")
+//                    APButton(title: "$\(appetizer.price, specifier: "%.2f") - Add to Order")
+                    Text("$\(appetizer.price, specifier: "%.2f") - Add to Order")
                 }
+                .modifier(StandardButtonStyle())
                 .padding(.bottom, 30)
             }
         }
@@ -61,6 +63,7 @@ struct AppetizerDetailView: View {
 #Preview {
     AppetizerDetailView(appetizer: MockData.sampleAppetizer,
                         isShowingDetail: .constant(true))
+    .environmentObject(Order())
 }
 
 struct NutritionInfo: View {

@@ -16,6 +16,7 @@
 		ECBE8D672BDABFA3003E50B0 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE8D662BDABFA3003E50B0 /* AppetizerDetailView.swift */; };
 		ECBE8D6B2BDAE57F003E50B0 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE8D6A2BDAE57F003E50B0 /* APButton.swift */; };
 		ECBE8D6D2BDAE6C6003E50B0 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE8D6C2BDAE6C6003E50B0 /* XDismissButton.swift */; };
+		ECCD2BB82BDD329100A11431 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD2BB72BDD329100A11431 /* CustomModifiers.swift */; };
 		ECD28A3B2BB980A300837145 /* SwiftUIAppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD28A3A2BB980A300837145 /* SwiftUIAppetizersApp.swift */; };
 		ECD28A3F2BB980A500837145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD28A3E2BB980A500837145 /* Assets.xcassets */; };
 		ECD28A422BB980A500837145 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD28A412BB980A500837145 /* Preview Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		ECBE8D662BDABFA3003E50B0 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		ECBE8D6A2BDAE57F003E50B0 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		ECBE8D6C2BDAE6C6003E50B0 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		ECCD2BB72BDD329100A11431 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 		ECD28A372BB980A300837145 /* SwiftUIAppetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAppetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD28A3A2BB980A300837145 /* SwiftUIAppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAppetizersApp.swift; sourceTree = "<group>"; };
 		ECD28A3E2BB980A500837145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				EC0E6FED2BDA8D03008B38A1 /* Cells */,
 				EC0E6FEE2BDA8D38008B38A1 /* Image */,
 				EC0E6FEC2BDA8CEE008B38A1 /* UIKit Components */,
+				ECCD2BB72BDD329100A11431 /* CustomModifiers.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				ECD28A492BB9812300837145 /* AppetizerTabView.swift in Sources */,
 				EC68DBB32BDBDF32003309E7 /* AccountViewModel.swift in Sources */,
 				ECBE8D672BDABFA3003E50B0 /* AppetizerDetailView.swift in Sources */,
+				ECCD2BB82BDD329100A11431 /* CustomModifiers.swift in Sources */,
 				ECD28A552BB99F9000837145 /* NetworkManager.swift in Sources */,
 				ECD28A3B2BB980A300837145 /* SwiftUIAppetizersApp.swift in Sources */,
 				ECFBACCD2BDA3AB700466D09 /* Alert.swift in Sources */,
