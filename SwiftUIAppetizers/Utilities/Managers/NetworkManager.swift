@@ -23,12 +23,11 @@ final class NetworkManager {
         
         let (data, _) = try await URLSession.shared.data(from: url)
         
-            do {
-                let decoder = JSONDecoder()
-                return try decoder.decode(AppetizerResponse.self, from: data).request
-            } catch {
-                throw APError.invalidData
-            }
+        do {
+            let decoder = JSONDecoder()
+            return try decoder.decode(AppetizerResponse.self, from: data).request
+        } catch {
+            throw APError.invalidData
         }
     }
     
@@ -59,4 +58,5 @@ final class NetworkManager {
         }
         
         task.resume()
+    }
 }

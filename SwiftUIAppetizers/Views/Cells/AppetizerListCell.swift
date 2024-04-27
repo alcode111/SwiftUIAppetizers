@@ -13,10 +13,15 @@ struct AppetizerListCell: View {
     
     var body: some View {
         HStack {
-            AppetizerRemonteImage(urlString: appetizer.imageURL)
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 120, height: 90)
-                .clipShape(RoundedRectangle(cornerRadius: 8))
+            AsyncImage(url: URL(string: appetizer.imageURL)) { image in
+                image
+                    .resizable()
+                    .modifier(listCellImageStyle())
+            } placeholder: {
+                Image("food-placeholder")
+                    .resizable()
+                    .modifier(listCellImageStyle())
+            }
             
             VStack(alignment: .leading, spacing: 5) {
                 Text(appetizer.name)

@@ -16,3 +16,13 @@ struct StandardButtonStyle: ViewModifier {
             .tint(.accent)
     }
 }
+
+struct listCellImageStyle: ViewModifier {
+    
+    func body(content: Content) -> some View {
+        content
+            .aspectRatio(contentMode: .fit)
+            .frame(width: 120, height: 90)
+            .clipShape(RoundedRectangle(cornerRadius: 8))
+    }
+}
