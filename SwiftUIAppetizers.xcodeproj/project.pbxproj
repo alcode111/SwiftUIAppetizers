@@ -17,6 +17,7 @@
 		ECBE8D6B2BDAE57F003E50B0 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE8D6A2BDAE57F003E50B0 /* APButton.swift */; };
 		ECBE8D6D2BDAE6C6003E50B0 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBE8D6C2BDAE6C6003E50B0 /* XDismissButton.swift */; };
 		ECCD2BB82BDD329100A11431 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD2BB72BDD329100A11431 /* CustomModifiers.swift */; };
+		ECCD2BBA2BDDB43C00A11431 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD2BB92BDDB43C00A11431 /* Date+Ext.swift */; };
 		ECD28A3B2BB980A300837145 /* SwiftUIAppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD28A3A2BB980A300837145 /* SwiftUIAppetizersApp.swift */; };
 		ECD28A3F2BB980A500837145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD28A3E2BB980A500837145 /* Assets.xcassets */; };
 		ECD28A422BB980A500837145 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD28A412BB980A500837145 /* Preview Assets.xcassets */; };
@@ -44,6 +45,7 @@
 		ECBE8D6A2BDAE57F003E50B0 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		ECBE8D6C2BDAE6C6003E50B0 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		ECCD2BB72BDD329100A11431 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+		ECCD2BB92BDDB43C00A11431 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		ECD28A372BB980A300837145 /* SwiftUIAppetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAppetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD28A3A2BB980A300837145 /* SwiftUIAppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAppetizersApp.swift; sourceTree = "<group>"; };
 		ECD28A3E2BB980A500837145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 		EC68DBAD2BDBCD96003309E7 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				ECCD2BB92BDDB43C00A11431 /* Date+Ext.swift */,
 				EC68DBAE2BDBCDC3003309E7 /* String+Ext.swift */,
 			);
 			path = Extensions;
@@ -321,6 +324,7 @@
 				ECD28A512BB98DA100837145 /* Appetizer.swift in Sources */,
 				EC7A38362BBAA98200FB296E /* APError.swift in Sources */,
 				ECD28A532BB99D7100837145 /* AppetizerListCell.swift in Sources */,
+				ECCD2BBA2BDDB43C00A11431 /* Date+Ext.swift in Sources */,
 				ECBE8D6B2BDAE57F003E50B0 /* APButton.swift in Sources */,
 				ECFBACCB2BDA360900466D09 /* AppetizerListViewModel.swift in Sources */,
 				ECEDF8262BDC193600391408 /* Order.swift in Sources */,
