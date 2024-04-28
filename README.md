@@ -32,6 +32,8 @@ Appetizers is a SwiftUI application that allows users to view a list of appetize
 ## Credits
 
 - This project is part of "SwiftUI Fundamentals", a comprehensive course by Sean Allen on [Teachable](https://seanallen.teachable.com/courses/enrolled/1178002).
+- The app icon used in this project is from [Vecteezy](https://www.vecteezy.com/): [Appetizer Icon](https://www.vecteezy.com/vector-art/22504015-easy-fried-mozzarella-food-vector)
+
 
 ## Author
 
